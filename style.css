@@ -1,21 +1,48 @@
 @font-face {
-  font-family: 'Seoul Namsan';
-  src: url('SeoulNamsanEB.ttf');
+  font-family: 'Seoul Namsan EB';
+  src: url('fonts/SeoulNamsanEB.ttf');
+}
+
+@font-face {
+  font-family: 'Seoul Hangang L';
+  src: url('fonts/seoulhangangl_stripped-webfont.woff') format('woff2');
+}
+
+#load {
+    height:300%;
+    width:300%;
+    background:#fff;
+    position:absolute;
+    top:0;
+    z-index:5;
+}
+
+.navbar {
+    z-index:1;
 }
 
 html {
   scroll-behavior: smooth;
   overflow-x:hidden;
+  max-width: 100%;
+  cursor:default;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
 }
 
 body {
   background-image:url(img/xv.png);
   background-repeat:repeat;
-  font-family:'Lato';
+  font-family:'Seoul Hangang L',sans-serif;
 }
 
 h1,h2,h3,h4 {
     font-weight:bold;
+    font-family:'Seoul Namsan EB',sans-serif;
 }
 
 h1 {
@@ -23,7 +50,7 @@ h1 {
 }
 
 .lead {
-    font-weight:100;
+    font-family:'Seoul Hangang L',sans-serif;
 }
 
 .nav-link:hover, .navbar-brand:hover {
@@ -33,11 +60,11 @@ h1 {
 
 #header h1 {
     color:#e6c64f;
-    font-family:'Seoul Namsan',sans-serif;
+    font-family:'Seoul Namsan EB',sans-serif;
 }
 
 #header {
-    background-image: url(img/header.png);
+    background-image: url(img/head.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
