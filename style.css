@@ -22,7 +22,7 @@
 }
 
 html {
-  /*scroll-behavior: smooth;*/
+  scroll-behavior: smooth;
   overflow-x:hidden;
   max-width: 100%;
   cursor:default;
@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  background-image:url(img/xv.png);
+  background-image:url(img/xv.webp);
   background-repeat:repeat;
   font-family:'Seoul Hangang L',sans-serif;
 }
@@ -64,7 +64,7 @@ h1 {
 }
 
 #header {
-    background-image: url(img/head.png);
+    background-image: url(img/head.webp);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -121,7 +121,7 @@ h1 {
 /*}*/
 
 #refs {
-    background-image:url(img/bg2.jpg);
+    background-image:url(img/bg2.webp);
     margin-top:-5em;
     box-shadow: 
         inset 0px 11px 8px -10px #CCC,
@@ -129,7 +129,7 @@ h1 {
 }
 
 #mc {
-    background-image:url(img/bg3.png);
+    background-image:url(img/bg3.webp);
 }
 
 #refs, #mc {
