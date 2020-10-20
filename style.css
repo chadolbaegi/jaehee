@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Seoul Namsan EB';
-  src: url('fonts/SeoulNamsanEB.ttf');
+  src: url('fonts/seoulnamsaneb-webfont.woff');
 }
 
 @font-face {
@@ -22,7 +22,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /*scroll-behavior: smooth;*/
   overflow-x:hidden;
   max-width: 100%;
   cursor:default;
