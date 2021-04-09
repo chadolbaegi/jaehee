@@ -9,165 +9,158 @@
 }
 
 #load {
-    height:300%;
-    width:300%;
-    background:#fff;
-    position:absolute;
-    top:0;
-    z-index:5;
+  height: 300%;
+  width: 300%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  z-index: 5;
 }
 
 .navbar {
-    z-index:1;
+  z-index: 1;
+  will-change: transform;
 }
 
 html {
-  scroll-behavior: smooth;
-  overflow-x:hidden;
+  overflow-x: hidden;
   max-width: 100%;
-  cursor:default;
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
-  background-image:url(img/xv.webp);
-  background-repeat:repeat;
-  font-family:'Seoul Hangang L',sans-serif;
+  background-image: url(img/xv.webp);
+  background-repeat: repeat;
+  font-family: 'Seoul Hangang L', sans-serif;
 }
 
-h1,h2,h3,h4 {
-    font-weight:bold;
-    font-family:'Seoul Namsan EB',sans-serif;
+h1, h2, h3, h4 {
+  font-weight: bold;
+  font-family: 'Seoul Namsan EB', sans-serif;
 }
 
 h1 {
-    color:#e6c64f;
+  color: #e6c64f;
 }
 
 .lead {
-    font-family:'Seoul Hangang L',sans-serif;
+  font-family: 'Seoul Hangang L', sans-serif;
 }
 
 .nav-link:hover, .navbar-brand:hover, .lg-sub-html a {
-    color:#e6c64f !important;
-    transition:all 300ms;
+  color: #e6c64f !important;
+  transition: all 300ms;
 }
 
 #header h1 {
-    color:#e6c64f;
-    font-family:'Seoul Namsan EB',sans-serif;
+  color: #e6c64f;
+  font-family: 'Seoul Namsan EB', sans-serif;
 }
 
 #header {
-    background-image: url(img/head.webp);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    height: 40em;
-    margin-bottom:0;
-    box-shadow:0px 0px 15px #303030;
+  background-image: url(img/head.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 40em;
+  margin-bottom: 0;
+  box-shadow: 0px 0px 15px #303030;
 }
 
 .jumbotron {
-    margin-bottom:0;
+  margin-bottom: 0;
 }
 
 #info {
-    max-width:100%;
-    padding:0;
-    position: relative;
+  max-width: 100%;
+  padding: 0;
+  position: relative;
 }
 
 #card {
-    z-index:-5000;
+  z-index: -5000;
 }
+
 #render {
-    position:absolute;
-    left:-8em;
-    z-index:-3999;
+  position: absolute;
+  left: -8em;
+  z-index: -3999;
 }
 
 #flower {
-    right: -14%;
-    position: absolute;
-    width: 50% !important;
-    top: 57%;
-    transform: rotate(252deg);
+  right: -14%;
+  position: absolute;
+  width: 50% !important;
+  top: 57%;
+  transform: rotate(252deg);
 }
 
 @media (min-width:1550px) {
-    #render {
-        left:-20em;
-    }
-    
+  #render {
+    left: -20em;
+  }
 }
 
 @media (min-width:800px) and (max-width:1549px) {
-    #render {
-        left:-13em;
-    }
+  #render {
+    left: -13em;
+  }
 }
 
-/*@media (max-width:1889px) {*/
-/*    #flower {*/
-/*        display:none;*/
-/*    }*/
-    
-/*}*/
-
 #refs {
-    background-image:url(img/bg2.webp);
-    margin-top:-5em;
-    box-shadow: 
-        inset 0px 11px 8px -10px #CCC,
-        inset 0px -11px 8px -10px #CCC; 
+  background-image: url(img/bg2.webp);
+  margin-top: -5em;
+  box-shadow:
+    inset 0px 11px 8px -10px #CCC,
+    inset 0px -11px 8px -10px #CCC;
 }
 
 #mc {
-    background-image:url(img/bg3.webp);
+  background-image: url(img/bg3.webp);
 }
 
 #refs, #mc {
-    background-size:cover;
-    background-attachment:fixed;
-    background-position:center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 #info img {
-    width:100%;
+  width: 100%;
 }
 
 .thumb {
-    width: 150px;
-    height:150px;
-	max-height: 150px;
-	object-fit: cover;
-	margin:0.3em 0.15em;
-	border-radius:1em;
+  width: 150px;
+  height: 150px;
+  max-height: 150px;
+  object-fit: cover;
+  margin: 0.3em 0.15em;
+  border-radius: 1em;
 }
 
 img a, a img {
-    border:none !important;
-    outline:none !important;
+  border: none !important;
+  outline: none !important;
 }
 
 #credits {
-    background:#e6c64f;
-    color:#fff;
-    font-size:0.75em;
-    padding:32px !important;
+  background: #e6c64f;
+  color: #fff;
+  font-size: 0.75em;
+  padding: 32px !important;
 }
 
 #credits a {
-    color:#fff;
+  color: #fff;
 }
 
 #credits a:active, #credits a:hover {
-    text-decoration:none;
-    outline:none;
+  text-decoration: none;
+  outline: none;
 }
