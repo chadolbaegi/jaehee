@@ -23,6 +23,7 @@
 }
 
 html {
+  -webkit-transform: translate3d(0,0,0);
   overflow-x: hidden;
   max-width: 100%;
   cursor: default;
@@ -129,6 +130,11 @@ h1 {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+}
+
+#header, #refs, #mc {
+  transform:translatez(0);
+  -webkit-transform:translatez(0);
 }
 
 #info img {
